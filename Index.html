@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Nusantara - Temukan Destinasi Impian Anda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-globe-asia"></i>
+                    <span>Jelajah Nusantara</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Beranda</a></li>
+                    <li><a href="#destinations" class="nav-link">Destinasi</a></li>
+                    <li><a href="#packages" class="nav-link">Paket Tour</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimoni</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Jelajahi Keindahan Indonesia</h1>
+            <p class="hero-subtitle">Temukan destinasi wisata menakjubkan di seluruh Nusantara</p>
+            <a href="#destinations" class="cta-button">Mulai Petualangan <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Destinasi Populer</h2>
+                <p>Kunjungi tempat-tempat terbaik yang ada di Indonesia</p>
+            </div>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800" alt="Bali">
+                        <div class="card-overlay">
+                            <button class="explore-btn">Jelajahi</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bali</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Pulau Dewata</p>
+                        <p class="card-description">Pantai eksotis, budaya yang kaya, dan pemandangan alam yang memukau</p>
+                        <div class="card-footer">
+                            <span class="price">Mulai dari Rp 2.500.000</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="asset/raja-ampat_11zon.webp" alt="Raja Ampat">
+                        <div class="card-overlay">
+                            <button class="explore-btn">Jelajahi</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Raja Ampat</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Papua Barat</p>
+                        <p class="card-description">Surga bawah laut dengan keanekaragaman hayati terkaya di dunia</p>
+                        <div class="card-footer">
+                            <span class="price">Mulai dari Rp 8.000.000</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800" alt="Yogyakarta">
+                        <div class="card-overlay">
+                            <button class="explore-btn">Jelajahi</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Yogyakarta</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Jawa Tengah</p>
+                        <p class="card-description">Kota budaya dengan candi bersejarah dan kuliner khas yang lezat</p>
+                        <div class="card-footer">
+                            <span class="price">Mulai dari Rp 1.800.000</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800" alt="Labuan Bajo">
+                        <div class="card-overlay">
+                            <button class="explore-btn">Jelajahi</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Labuan Bajo</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> NTT</p>
+                        <p class="card-description">Gerbang menuju Taman Nasional Komodo dan pulau-pulau indah</p>
+                        <div class="card-footer">
+                            <span class="price">Mulai dari Rp 4.500.000</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Paket Wisata Terbaik</h2>
+                <p>Pilih paket wisata yang sesuai dengan kebutuhan Anda</p>
+            </div>
+            <div class="package-grid">
+                <div class="package-card">
+                    <div class="package-badge">Populer</div>
+                    <div class="package-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Paket Hemat</h3>
+                    <p class="package-price">Rp 3.000.000<span>/orang</span></p>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Tiket pesawat PP</li>
+                        <li><i class="fas fa-check"></i> Hotel bintang 3</li>
+                        <li><i class="fas fa-check"></i> Makan 2x sehari</li>
+                        <li><i class="fas fa-check"></i> Tour guide</li>
+                        <li><i class="fas fa-check"></i> Dokumentasi</li>
+                    </ul>
+                    <button class="package-btn">Pilih Paket</button>
+                </div>
+
+                <div class="package-card featured">
+                    <div class="package-badge">Terlaris</div>
+                    <div class="package-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Paket Premium</h3>
+                    <p class="package-price">Rp 6.000.000<span>/orang</span></p>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Tiket pesawat PP</li>
+                        <li><i class="fas fa-check"></i> Hotel bintang 5</li>
+                        <li><i class="fas fa-check"></i> Makan 3x sehari</li>
+                        <li><i class="fas fa-check"></i> Tour guide profesional</li>
+                        <li><i class="fas fa-check"></i> Dokumentasi premium</li>
+                        <li><i class="fas fa-check"></i> Asuransi perjalanan</li>
+                    </ul>
+                    <button class="package-btn">Pilih Paket</button>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-badge">Eksklusif</div>
+                    <div class="package-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Paket VIP</h3>
+                    <p class="package-price">Rp 10.000.000<span>/orang</span></p>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Tiket pesawat PP (Business)</li>
+                        <li><i class="fas fa-check"></i> Hotel bintang 5 deluxe</li>
+                        <li><i class="fas fa-check"></i> All inclusive meals</li>
+                        <li><i class="fas fa-check"></i> Private tour guide</li>
+                        <li><i class="fas fa-check"></i> Fotografer profesional</li>
+                        <li><i class="fas fa-check"></i> Asuransi premium</li>
+                        <li><i class="fas fa-check"></i> Transport pribadi</li>
+                    </ul>
+                    <button class="package-btn">Pilih Paket</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apa Kata Mereka?</h2>
+                <p>Pengalaman tak terlupakan dari pelanggan kami</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="Avatar">
+                        <div>
+                            <h4>Budi Santoso</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Pengalaman liburan ke Bali bersama Jelajah Nusantara sangat memuaskan! Pelayanan tour guide sangat profesional dan destinasi yang dikunjungi sesuai ekspektasi."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Avatar">
+                        <div>
+                            <h4>Siti Aminah</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Raja Ampat benar-benar surga dunia! Terima kasih Jelajah Nusantara sudah mengatur semuanya dengan sempurna. Highly recommended!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=8" alt="Avatar">
+                        <div>
+                            <h4>Ahmad Rizki</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Paket premium ke Yogyakarta sangat worth it! Hotelnya bagus, makanan enak, dan tour guidenya sangat ramah. Pasti akan booking lagi!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Hubungi Kami</h2>
+                    <p>Siap memulai petualangan Anda? Hubungi kami untuk informasi lebih lanjut!</p>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@jelajahnusantara.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Wisata No. 123, Jakarta Selatan</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="No. Telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-globe-asia"></i>
+                        <span>Jelajah Nusantara</span>
+                    </div>
+                    <p>Jelajahi keindahan Indonesia bersama kami. Pengalaman wisata terbaik untuk petualangan tak terlupakan.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#destinations">Destinasi</a></li>
+                        <li><a href="#packages">Paket Tour</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Tour Guide</a></li>
+                        <li><a href="#">Booking Hotel</a></li>
+                        <li><a href="#">Transportasi</a></li>
+                        <li><a href="#">Dokumentasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan penawaran spesial dan update destinasi wisata terbaru</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Email Anda">
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jelajah Nusantara. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
